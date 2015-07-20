@@ -17,7 +17,7 @@ get an enormous amount of reports.
 However, if you already have smart ECMA coding style, then you will most
 likely appreciate the learning experience / tightening up of your style.
 
-Meter and ECMA are both intended to be flexible.  This file allows for that
+Meteor and ECMA are both intended to be flexible.  This file allows for that
 flexibility where appropriate, but also has sane protections for actual
 poor programming methodology.  Hopefully it will allow enough flexibility
 to still take advantage of the fun parts of the language.
