@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-meteor",
+  "version": "0.0.1",
+  "description": "A Meteor Developer's ECMA 6th Edition ESLint Configuration by @iDoMeteor. Based on node-style-guide and tuned to the official Meteor Style Guide.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/idometeor/eslint-config-meteor"
+  },
+  "keywords": [
+    "meteor",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "linting",
+    "linter",
+    "config",
+    "ecma",
+    "style",
+    "guide"
+  ],
+  "author": "@iDoMeteor has Gmail as well",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idometeor/eslint-config-meteor/issues"
+  }
+}
