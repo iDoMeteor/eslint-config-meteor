@@ -1,14 +1,11 @@
 {
   "name": "eslint-config-meteor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Meteor Developer's ECMA 6th Edition ESLint Configuration by @iDoMeteor. Based on node-style-guide and tuned to the official Meteor Style Guide.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/idometeor/eslint-config-meteor"
+    "url": "https://github.com/iDoMeteor/eslint-config-meteor"
   },
   "keywords": [
     "meteor",
@@ -25,6 +22,6 @@
   "author": "@iDoMeteor has Gmail as well",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/idometeor/eslint-config-meteor/issues"
+    "url": "https://github.com/iDoMeteor/eslint-config-meteor/issues"
   }
 }
