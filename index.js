@@ -150,7 +150,7 @@ module.exports = {
     }],
     "comma-style": [2, "last"],
     "eol-last": 0,
-    "func-names": 1,      // Something I'm trying to eliminate, anonymous functions
+    "func-names": 0,      // Something I'm trying to eliminate, anonymous functions
     "func-style": 0,      // Flexibility ftw
     "indent": [2, 2, {"indentSwitchCase": true}],
     "key-spacing": [2, {
