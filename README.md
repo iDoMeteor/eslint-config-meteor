@@ -1,6 +1,26 @@
 # A Meteor Developer's ECMA 6th Edition ESLint Configuration by @iDoMeteor
+# <small>v0.0.2</small>
 
 http://github.com/idometeor/eslint-config-meteor
+
+# Installation & Usage
+
+This version is meant for installation via NPM.  To get the .eslintrc which
+you would use with your editor or by dropping into a project is located in
+[my meteor-skeleton repository](https://github.com/iDoMeteor/meteor-skeleton/)
+and [my dotfiles](https://github.com/iDoMeteor/meteor-vim-dotfiles/).
+
+To install this via NPM:
+
+>$ npm install -g eslint-config-meteor.
+
+To use it, create a .eslintrc with the following in it (or add to your existing,
+not sure how that will go for you tho :>):
+
+  {
+    "extends": "meteor"
+  }
+
 
 ## Summary
 
