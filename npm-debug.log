@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@2.13.1
+3 info using node@v0.10.25
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec { raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/home/j/node/eslint-config-meteor',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory /home/j/.npm/eslint-config-meteor/0.0.4/package.tgz not in flight; packing
+10 verbose tar pack [ '/home/j/.npm/eslint-config-meteor/0.0.4/package.tgz',
+10 verbose tar pack   '/home/j/node/eslint-config-meteor' ]
+11 verbose tarball /home/j/.npm/eslint-config-meteor/0.0.4/package.tgz
+12 verbose folder /home/j/node/eslint-config-meteor
+13 info prepublish eslint-config-meteor@0.0.4
+14 verbose addLocalTarball adding from inside cache /home/j/.npm/eslint-config-meteor/0.0.4/package.tgz
+15 silly cache afterAdd eslint-config-meteor@0.0.4
+16 verbose afterAdd /home/j/.npm/eslint-config-meteor/0.0.4/package/package.json not in flight; writing
+17 verbose afterAdd /home/j/.npm/eslint-config-meteor/0.0.4/package/package.json written
+18 silly publish { name: 'eslint-config-meteor',
+18 silly publish   version: '0.0.4',
+18 silly publish   description: 'Tested & working. @iDoMeteor\'s Lint Configuration. Based on node-style-guide, the Meteor source .eslint, the official Meteor Style Guide.  Then tuned for myself.',
+18 silly publish   homepage: 'https://github.com/iDoMeteor/eslint-config-meteor',
+18 silly publish   main: 'index.js',
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/idometeor/eslint-config-meteor.git' },
+18 silly publish   keywords:
+18 silly publish    [ 'meteor',
+18 silly publish      'eslint',
+18 silly publish      'eslintconfig',
+18 silly publish      'lint',
+18 silly publish      'linting',
+18 silly publish      'linter',
+18 silly publish      'config',
+18 silly publish      'ecma',
+18 silly publish      'style',
+18 silly publish      'guide' ],
+18 silly publish   author: { name: '@iDoMeteor has Gmail as well' },
+18 silly publish   license: 'MIT',
+18 silly publish   bugs: { url: 'https://github.com/idometeor/eslint-config-meteor/issues' },
+18 silly publish   readme: '# A Meteor Developer\'s ECMA 6th Edition ESLint Configuration by @iDoMeteor\n# <small>v0.0.4</small>\n\nhttp://github.com/idometeor/eslint-config-meteor\n\n# Installation & Usage\n\nThis version is meant for installation via NPM.  To get the .eslintrc which\nyou would use with your editor or by dropping into a project is located in\n[my meteor-skeleton repository](https://github.com/iDoMeteor/meteor-skeleton/)\nand [my dotfiles](https://github.com/iDoMeteor/meteor-vim-dotfiles/).\n\nTo install this via NPM:\n\n>$ npm install -g eslint-config-meteor.\n\nTo use it, create a .eslintrc with the following in it (or add to your existing,\nnot sure how that will go for you tho :>):\n\n  {\n    "extends": "meteor"\n  }\n\n\n## Summary\n\nMeteor upholds a high standard for coding, so do I, and so should you.\nWith that goal in mind, I set every option in this file with intent.  It\nmay provide you with a fair amount of frustration if you are new to linting\ntools.\n\nThis is intended to be integrated into your editor (along with .editorconfig)\nin such a way as to allow you to use it continually.  If you drop it on a\nlarge, existing code base that may be... lax in coding standards, expect to\nget an enormous amount of reports.\n\nHowever, if you already have smart ECMA coding style, then you will most\nlikely appreciate the learning experience / tightening up of your style.\n\nMeteor and ECMA are both intended to be flexible.  This file allows for that\nflexibility where appropriate, but also has sane protections for actual\npoor programming methodology.  Hopefully it will allow enough flexibility\nto still take advantage of the fun parts of the language.\n\nIn general, this configuration in tandem with my .jscsrc should provide\none of the best programmatic ways to ensure that your Meteor code is as\nnear to being inline with the MDG Style Guide as is practical from an\nautomated tool.\n\n## Caveats\n\nI allow (and prefer, unless Sciencing) ==.  The Abstract Equality\nComparison Algorithm is no more "obscure (src: ESLint)" than is the\nStrict Equality Comparison Algorithm.  Actually, it comes first not only\nin this paragraph, but also in the ECMA specification (11.9.3 vs 11.9.6).\n\nThe standard convention comes from the same old-school origin as using !!.\nNamely, poor programming practices and ECMA implementations from the past.\nThere are distinct advantages to using == in non-precision (read\nnon-mission-critical) contexts.  I\'ll leave that dark magic up to you to\ndiscover.\n\nPoint is, you should probably be statically typing if you are that are that\nconcerned about precision, or not concerned about this level of semantics if\nyour ability to keep your types straight is ... still developing.\n\nThat being said, I throw warnings on (x == null) || (x != null). :p\n\nThis is not for niave Javascripters, you should be able to\ngrok what this is going to do for you or use eslint --init at the command\nline and go from there.\n\nI use object literals instead of switch, as one should.  However, once in\na while, a switch w/fallthrough and/or no default is actually highly useful.\nFor instance, Twiefbot uses micro-switches in the natural language\nprocessing.  Therefore, they are allowed, but will throw warnings.  That\nmeans that, while you should not do it, if you really know what you\'re doing\nthen go for it.\n\nTODO:\n   Thoroughly configure React\n   Thoroughly configure Angular\n\nContributing:\n   I welcome pull requests!\n\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: 'a87ca373ec864655f87e38125ac018fa3026c53d',
+18 silly publish   _id: 'eslint-config-meteor@0.0.4',
+18 silly publish   scripts: {},
+18 silly publish   _shasum: '9a2c781c49a9aa8d76beb277c7796cd47a658757',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name eslint-config-meteor
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/eslint-config-meteor
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /home/j/.npm/eslint-config-meteor/0.0.4/package.tgz
+26 verbose request uri https://registry.npmjs.org/eslint-config-meteor
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 10:51:24
+29 verbose request using bearer token for auth
+30 verbose request id 713e598a082be14a
+31 http request PUT https://registry.npmjs.org/eslint-config-meteor
+32 http 403 https://registry.npmjs.org/eslint-config-meteor
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=60',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Thu, 23 Jul 2015 14:51:38 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-dfw1827-DFW',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1437663098.087053,VS0,VE749' }
+34 verbose request invalidating /home/j/.npm/registry.npmjs.org/eslint-config-meteor on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 0.0.4." : eslint-config-meteor
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:247:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:197:22)
+36 verbose stack     at Request.EventEmitter.emit (events.js:98:17)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1050:14)
+36 verbose stack     at Request.EventEmitter.emit (events.js:117:20)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:996:12)
+36 verbose stack     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+36 verbose stack     at _stream_readable.js:920:16
+36 verbose stack     at process._tickCallback (node.js:415:13)
+37 verbose statusCode 403
+38 verbose pkgid eslint-config-meteor
+39 verbose cwd /home/j/node/eslint-config-meteor
+40 error Linux 3.13.0-32-generic
+41 error argv "node" "/usr/local/bin/npm" "publish"
+42 error node v0.10.25
+43 error npm  v2.13.1
+44 error code E403
+45 error "You cannot publish over the previously published version 0.0.4." : eslint-config-meteor
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
