@@ -3,10 +3,6 @@
 
 http://github.com/idometeor/eslint-config-meteor
 
-# Note
-
-If you are looking for a usable .eslint, you will want to get the one from my [dot files](https://github.com/iDoMeteor/meteor-vim-dotfiles/blob/master/.eslintrc) or from my [Meteor skeleton](https://github.com/iDoMeteor/meteor-skeleton/blob/master/.eslintrc). This one is intended for use as an extension.
-
 # Installation & Usage
 
 This version is meant for installation via NPM.  To get the .eslintrc which
