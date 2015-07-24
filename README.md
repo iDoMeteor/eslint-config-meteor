@@ -1,5 +1,5 @@
 # A Meteor Developer's ECMA 6th Edition ESLint Configuration by @iDoMeteor
-# <small>v0.0.5</small>
+# <small>v0.0.6</small>
 
 http://github.com/idometeor/eslint-config-meteor
 
@@ -21,6 +21,11 @@ not sure how that will go for you tho :>):
     "extends": "meteor"
   }
 
+# Name
+
+I probably should have named this eslint-config-idometeor and made this one
+the official Meteor configuration.  If anyone would like me to do so, by
+all means, let me know!
 
 ## Summary
 

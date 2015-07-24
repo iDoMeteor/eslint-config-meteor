@@ -113,11 +113,12 @@ module.exports = {
      */
 
     "block-scoped-var": 0,
-    "dot-notation": 0,      // Dynamic keys ftw, especially ES6 style
+    "dot-notation": [1, {"allowKeywords": true}],      // Dynamic keys ftw, especially ES6 style
     "eqeqeq": 0,            // This contradicts MDG Style Guide, which prolly is [2, "allow-null"]
     "no-console": 0,
     "no-param-reassign": 0, // I do it, but don't use arguments meta-var much
     "no-reserved-keys": 0,  // 3rd edition is dead, no worries here
+    "no-undef": 0,          // Super annoying in Meteor code, lol
     "radix": 0,             // If you screw up your numbers, your own fault
     "yoda": 0,              // I yoda, everyone should
     "vars-on-top": 0,       // Seriously, hoist your vars. But sometimes I like to validate
@@ -185,11 +186,12 @@ module.exports = {
     //                                     ^punny, eh! :D
     "no-fallthrough": 1,          // *If* you happen to.. it shouldn't be often.
     "no-floating-decimal": 1,     // Should be 2, but I bet lots of you...
+    "no-multi-spaces": 0,         // I like pretty
     "no-multi-str": 1,            // Should be 2, I'm being nice :>
     "no-shadow-restricted-names": 2,
-    "no-unused-vars": [2, {
+    "no-unused-vars": [1, {
       "vars": "local",
-      "args": "all"
+      "args": "none"
     }],
     "no-use-before-define": 2,
 
