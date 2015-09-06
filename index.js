@@ -213,7 +213,7 @@ module.exports = {
     "eol-last": 0,
     "func-names": 0,      // Something I'm trying to eliminate, anonymous functions
     "func-style": 0,      // Flexibility ftw
-    "indent": [2, 2, {"indentSwitchCase": true}],
+    "indent": [2, 2, {"SwitchCase": 1}],
     "key-spacing": [2, {
       "afterColon": true,
       "align": "value",
