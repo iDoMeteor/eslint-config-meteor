@@ -246,8 +246,7 @@ module.exports = {
     "space-before-function-paren": [2, "always"],
     "space-infix-ops": 2,
     "space-return-throw-case": 2,
-    "spaced-line-comment": 2,
+    "spaced-comment": [2, "always"],
 
   }
 }
-
