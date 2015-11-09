@@ -59,6 +59,7 @@
  *
  * Contributing:
  *    I welcome pull requests!
+ *    - Thank you, @Marines!
  *
  * ****************************************************************************/
 module.exports = {

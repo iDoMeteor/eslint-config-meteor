@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meteor",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Tested & working. @iDoMeteor's Lint Configuration. Based on node-style-guide, the Meteor source .eslint, the official Meteor Style Guide.  Then tuned for myself.",
   "homepage": "https://github.com/iDoMeteor/eslint-config-meteor",
   "main": "index.js",
