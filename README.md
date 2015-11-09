@@ -1,5 +1,5 @@
 # A Meteor Developer's ECMA 6th Edition ESLint Configuration by @iDoMeteor
-# <small>v0.0.8</small>
+# <small>v0.0.9</small>
 
 http://github.com/idometeor/eslint-config-meteor
 
