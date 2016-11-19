@@ -21,12 +21,6 @@ not sure how that will go for you tho :>):
     "extends": "meteor"
   }
 
-# Name
-
-I probably should have named this eslint-config-idometeor and made this one
-the official Meteor configuration.  If anyone would like me to do so, by
-all means, let me know!
-
 ## Summary
 
 Meteor upholds a high standard for coding, so do I, and so should you.
@@ -82,10 +76,7 @@ processing.  Therefore, they are allowed, but will throw warnings.  That
 means that, while you should not do it, if you really know what you're doing
 then go for it.
 
-TODO:
-   Thoroughly configure React
-   Thoroughly configure Angular
 
 Contributing:
-   I welcome pull requests!
+   Pull requests will be considered.
 
