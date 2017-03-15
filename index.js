@@ -220,6 +220,10 @@ module.exports = {
       "align": "value",
       "beforeColon": false,
     }], // 'prop': x, extra spacing allowed if lining up blocks
+    "keyword-spacing": [2, {
+      "after": true,
+      "before": true,
+    }],
     "linebreak-style": [
       2,
       "unix"
@@ -242,11 +246,9 @@ module.exports = {
       "before": false,
       "after": true
     }],
-    "space-after-keywords": 2,
     "space-before-blocks": 2,
     "space-before-function-paren": [2, "always"],
     "space-infix-ops": 2,
-    "space-return-throw-case": 2,
     "spaced-comment": [2, "always"],
 
   }
