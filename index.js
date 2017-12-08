@@ -64,27 +64,6 @@
  * ****************************************************************************/
 module.exports = {
   "parser": "babel-eslint",
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "blockBindings": true,
-    "classes": true,
-    "defaultParams": true,
-    "destructuring": true,
-    "experimentalObjectRestSpread": true,
-    "forOf": true,
-    "generators": true,
-    "jsx": true,
-    "modules": true,
-    "objectLiteralComputedProperties": true,
-    "objectLiteralDuplicateProperties": false,
-    "objectLiteralShorthandMethods": true,
-    "objectLiteralShorthandProperties": true,
-    "regexYFlag": true,
-    "regexUFlag": true,
-    "spread": true,
-    "superInFunctions": true,
-    "templateStrings": true,
-  },
   "env": {
     "browser": true,
     "es6": true,
@@ -250,6 +229,5 @@ module.exports = {
     "space-before-function-paren": [2, "always"],
     "space-infix-ops": 2,
     "spaced-comment": [2, "always"],
-
   }
 }
